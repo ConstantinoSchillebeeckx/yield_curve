@@ -5,3 +5,7 @@ svg {
     width: 100%;
     height: 600px !important;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}

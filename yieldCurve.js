@@ -61,10 +61,10 @@ function renderChart(dat, div) {
         chart.yAxis
              .tickFormat(function(d) {
                 return d.toFixed(2);
-             });
-
-        chart.yAxis
+             })
              .showMaxMin(false);
+        
+        chart.yDomain([0,1.5]);
 
         // remove any current chart
         d3.select(div + ' svg')
